@@ -22,8 +22,7 @@ int threeNum (int number)
 }
 
 Console.WriteLine("Enter number: ");
-int num2 = Convert.ToInt32(Console.ReadLine());
-int num = Math.Abs(num2);
+int num = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
 if(num > 0 && num < 100)
 {
